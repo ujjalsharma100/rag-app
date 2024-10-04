@@ -1,0 +1,12 @@
+chromadb
+unstructured
+langchain
+langchain_community
+langchain-text-splitters
+unstructured
+unstructured[all-docs]
+flask
+tensorflow
+tf-keras
+transformers
+flask_cors

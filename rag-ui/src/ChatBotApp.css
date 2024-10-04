@@ -1,0 +1,32 @@
+.react-chatbot-kit-chat-container {
+    position: relative;
+    width: 500px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .react-chatbot-kit-chat-bot-message {
+    margin-left: unset;
+    width: 300px;
+  }
+  
+  .react-chatbot-kit-chat-inner-container {
+    height: 650px;
+  }
+  
+  .react-chatbot-kit-chat-message-container {
+    height: 550px;
+  }
+  
+  .react-chatbot-kit-chat-header {
+    background-color: rgb(3, 85, 139);
+    color: white;
+  }
+  
+  .react-chatbot-kit-chat-input {
+    background-color: rgb(236, 236, 236);
+  }
+
+  a {
+    color: aqua;
+  }

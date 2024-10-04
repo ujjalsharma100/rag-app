@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(112, 231, 227, 0.37)
+}

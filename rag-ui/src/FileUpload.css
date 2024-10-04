@@ -1,0 +1,89 @@
+.upload-container {
+    width: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.upload-input {
+    height: 100px;
+    background-color: rgb(224, 223, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.upload-button {
+    margin-top: 10px;
+    display: flex;
+}
+
+.upload-button button {
+    padding: 20px;
+    font-size: 15px;
+    background-color: #1592b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+    flex: 1;
+}
+
+.upload-button button:disabled {
+    background-color: gray;
+}
+
+.upload-button button:disabled:hover {
+    cursor: not-allowed;
+    background-color: gray;
+}
+  
+.upload-button button:hover {
+    background-color: #11748d;
+}
+
+.clear-kb-button {
+    margin-top: 10px;
+    display: flex;
+}
+
+.clear-kb-button button {
+    padding: 20px;
+    font-size: 15px;
+    background-color: #e2633c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+    flex: 1;
+}
+
+.clear-kb-button button:hover {
+    background-color: #a73a18;
+}
+
+.clear-kb-button button:disabled {
+    background-color: gray;
+}
+
+.clear-kb-button button:disabled:hover {
+    cursor: not-allowed;
+    background-color: gray;
+}
+  
+
+.message-label {
+    margin-top: 20px;
+    color: rgb(16, 163, 16);
+    font-size: 22px;
+}
+
+.error-label {
+    color: red;
+}
